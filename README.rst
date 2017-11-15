@@ -2,3 +2,4 @@
 Prelude C++
 ##############################################################################
 
+Prelude C++ is the C++ project template for generating a new C++ project.

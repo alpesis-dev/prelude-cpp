@@ -15,8 +15,16 @@ configure_file (
   "${PROJECT_BINARY_DIR}/demo/version.h"
 )
 
+# include dirs
 include_directories ("${PROJECT_BINARY_DIR}")
-include_directories ("${PROJECT_BINARY_DIR}/demo")
+include_directories ("${PROJECT_BINARY_DIR}/demo/")
+include_directories ("${PROJECT_BINARY_DIR}/demo/maths")
+
+# ----------------------------------------------------------------------------
+# option
+
+option (USE_MATHS "Use maths" ON)
+
 
 # ----------------------------------------------------------------------------
 # subdirectories
